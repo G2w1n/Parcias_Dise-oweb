@@ -52,3 +52,7 @@ export const promociones: Promocion[] = [
 ];
 
 export const pedidos: Pedido[] = [];
+
+productos.forEach((p) => {
+  p.imagen = `/img/${p.id}.jpg`;
+});
